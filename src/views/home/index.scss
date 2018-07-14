@@ -1,0 +1,40 @@
+.plant{
+    text-align:center;
+    line-height: 50px;
+    position: relative;
+    p{
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        font-size: 14px;
+        background: blue;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        color: #fff;
+    }
+}
+.planlist{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    td, th{
+        border: 1px solid blue;
+        line-height: 32px;
+        font-size: 14px;
+    }
+    .plan-delect{
+        color: red;
+        cursor: pointer;
+        &:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+    .plan-title{
+        width: 80%;
+    }
+
+}
+ 

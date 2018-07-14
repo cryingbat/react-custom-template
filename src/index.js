@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //引入
-import './static/index.css'
 import Route from './router/index'
 import { AppContainer } from 'react-hot-loader';
 import {Provider} from 'react-redux';

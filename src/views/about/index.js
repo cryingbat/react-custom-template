@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import store from '../../store/store.js';
 import { connect } from 'react-redux';
 import {show,addPlan} from '../../store/home/action';
+import './index.scss'
 class About extends Component{
   constructor (props) {
     super(props)
@@ -44,7 +45,6 @@ class About extends Component{
 	}
     
   }
-
   render() {
     return (
       <section className="popup" style={this.props.planlist.show ? {} : {display: 'none'}}>

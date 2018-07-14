@@ -24,13 +24,9 @@ class Detail extends Component {
 		)
 	}
 }
-
-
 const mapStateToProps = function(store) {
-    
   return {
     planlist: store.default.planlist
   };
 };
-
 export default connect(mapStateToProps)(Detail);

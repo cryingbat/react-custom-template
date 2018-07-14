@@ -4,7 +4,8 @@ import Header from '../../components/header'
 import {show, deletePlan} from '../../store/home/action';
 import store from '../../store/store';
 import { connect } from 'react-redux';
-import About from '../about/index'
+import About from '../about/index';
+import './index.scss'
 class Home extends Component{
     constructor(props) {
         super(props);
